@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("C:\Users\user\Downloads\Asgmnt IT\logo 2.gif");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+	  <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#crews" class="w3-bar-item w3-button">crews</a>
+  
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+ 
+
+   <td rowspan="6"><img src="https://img.freepik.com/free-vector/ice-cream-design-logo_187482-458.jpg?w=2000" height="900" width="1400"></td>
+
+       
+	  <h1><b>About Dely Ice Cream</b></h1>
+      <span class="w3-text-black w3-hide-small" style="font-size:40px"<h5 class="w3-center"><h1><b> HELLO SWEETIES!!!</b></h1>
+     
+	   <span class="w3-text-black w3-hide-small" style="font-size:30px">>The delightful dessert we serve for you to start your day. The smoothies of the fruits will guarantee trickled down your moist tongue a slow as an ancient tortoise.</span>
+     
+  
+	   <h1><b>Opening Hours</b></h1>
+	   <div>
+	  <span class="w3-text-black w3-hide-small" style="font-size:30px"
+        <p> sunday (closed) </p>
+		<p> monday - saturday (10.00 - 24.00) </p>
+	
+	 <h1><b>ICE CREAM  |  SMOOTHIE  |  YOUGURT</b></h1>
+	  <span class="w3-text-black w3-hide-small" style="font-size:30px">> Our premium products has received numerous accolades.</span>
+	   <span class="w3-text-black w3-hide-small" style="font-size:30px"
+	  <p> we have cones, cups, sundaes and an infinite number of flavors. </p>
+ 
+</header>
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge"id="myMap">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at --> Jalan Kebun Bunga, Pulau Harmoni, 10350 George Town, Pulau Pinang  
+<div>call us at --> 05050525-122330 </p>
+<div>email us at --> delyicecream00@gmail.com
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+   
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container w3-light-blue w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-pink">Ice Cream</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-pink">Smoothie</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-pink">Yogurt</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1>  <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/LD/ND/RB/60135453/vanilla-choco-chips-ice-cream-500x500.jpg"" alt="Popsicle" style="width:20%"> <h1><b>Ordinary Choco Chip Vanilla,</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM9.90</span></h1>
+      <p class="w3-text-grey">Add On: Chocolate Sauce, Strawberry Sauce, Green Tea Sauce</p>
+      <hr>
+   
+      <h1>  <img src="https://hips.hearstapps.com/vidthumb/images/delish-blueberry-no-churn-ice-cream-still002-1530884427.jpg" alt="popsicle" style="width:20%"> <h1><b>Blueberry Ice Cream</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM13.90</span></h1>
+      <p class="w3-text-grey">Add On: Chocolate Rice, Melted Marshmallow, Rainbow Sprinkles</p>
+      <hr>
+      
+     <h1>  <img src="https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2021/10/Red-velvet-ice-cream-hero-05.jpg"" alt="Popsicle" style="width:20%">  <h1><b>Red Velvet Ice Cream</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM15.90</span></h1>
+      <p class="w3-text-grey">Add On: Nuts, Brownies Cubes, Crunchy Velvet</p>
+      <hr>
+
+      <h1>  <img src="https://deliciousmadeeasy.com/wp-content/uploads/2015/12/dairy-free-chocolate-ice-cream-1.jpg" alt="Popsicle" style="width:20%"> <h1><b>Milk Chocolate Chips</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM12.90</span></h1>
+      <p class="w3-text-grey">Add On: Kiwi & Nocilla Hazelnuts Sauce, Strawberry & Ovamaltine, Dragon Fruit & White Chocolate</p>
+      <hr>
+
+      <h1>  <img src="https://i.pinimg.com/736x/55/3d/12/553d120be755693c1cdfe3fc693b7165.jpg"" alt="Popsicle" style="width:20%"> <h1><b>Cotton Candy</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">RM12.90</span></h1>
+      <p class="w3-text-grey">add on: Hazelnnuts, rainbow sprinkles, cotton candy</p>
+      <hr>
+
+      <h1>  <img src="https://barefeetinthekitchen.com/wp-content/uploads/2020/02/chocolate-pb-ice-cream-2-1-of-1.jpg" alt="Popsicle" style="width:20%"> <h1><b>chocolate peanut butter</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">RM15.90</span></h1>
+      <p class="w3-text-grey">almond nuts, dark chocolate chips, chocolate sause</p>
+    </div>
+	
+	
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1>  <img src="https://cdn.foodaciously.com/static/recipes/352ac840-cf64-4b7d-b09b-a6df6058db4a/carrot-strawberry-smoothie-recipe-ea74b69975f29756c017cecf6c25525b-1920.jpg" alt="Popsicle" style="width:20%"> <h1><b>Carrot Smoothie</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">RM14.90</span></h1>
+      <p class="w3-text-grey">Add On: Orange, Walnuts, Strawberry</p>
+      <hr>
+   
+      <h1>  <img src="https://i.pinimg.com/736x/4b/c1/f6/4bc1f62c871ab94fc26566f1b0369cdf.jpg"" alt="Popsicle" style="width:20%"> <h1><b>Blue Coral Smoothie</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM15.90</span></h1>
+      <p class="w3-text-grey">Add On: marshmallow, Grass Jelly, Whipping Cream</p>
+      <hr>
+      
+      <h1>  <img src="https://images.eatthismuch.com/img/927279_tabitharwheeler_0429baa1-435d-4689-b5f9-382a6040fe09.jpg" alt="Popsicle" style="width:20%"> <h1><b>Manggo Smoothie</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM11.90</span></h1>
+      <p class="w3-text-grey">Add On: Manggo Cubes, Vanilla Yogurt, Peppermint</p>
+      <hr>
+
+      <h1>  <img src="https://hungryhealthyhappy.com/wp-content/uploads/2022/03/Easy-Banana-Milkshake-finished-1.jpg" alt="Popsicle" style="width:20%"> <h1><b>Banana Biscoff Smoothie
+      </b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM15.90</span></h1>
+      <p class="w3-text-grey">Add On: Biscoff Crunchy, Oatmeal, Caremel Sauce</p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1>  <img src="https://img.freepik.com/free-photo/jus-durian-durian-smoothie-durian-juice_581937-1161.jpg?w=2000" alt="Popsicle" style="width:20%"> <h1><b>Durian Yogurt</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>ask the waiter<span class="w3-right w3-tag w3-dark-grey w3-round">RM16.90</span></h1>
+      <p class="w3-text-grey">Add On: Creamy Durian Sauce, Tiny Durian Crepe, Almond Nuts</p>
+      <hr>
+   
+      <h1>  <img src="https://farm9.staticflickr.com/8656/16143656799_e8dc78b5ef_o.jpg"" alt="Popsicle" style="width:20%"> <h1><b>Dragon Fruit Yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM15.90</span></h1>
+      <p class="w3-text-grey">Add On: Blueberry, Oatmeal, Kiwi</p>
+      <hr>
+      
+      <h1> <img src="https://helloglow.co/wp-content/uploads/2015/08/Coconut-Yogurt-Parfait-with-Berries.jpg" alt="Popsicle" style="width:20%"> <h1><b>Coconut Greek Yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM12.90</span></h1>
+      <p class="w3-text-grey">Add On: Raspberry, Almond Yogurt, Blueberry</p>
+      <hr>
+      
+      <h1> <img src="https://2.bp.blogspot.com/-dWPeKgiB9UM/VcF7eaUuCQI/AAAAAAAAXCE/OcCv3T981tI/s1600/aIMG_0501fsq.jpg"alt="Popsicle" style="width:20%"> <h1><b>Watermelon Yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RM10.90</span></h1>
+      <p class="w3-text-grey">Add On: Peach, Avocado, Honeydew</p>
+    </div><br>
+
+  </div>
+</div>
+
+
+<!-- crews Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="crews">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Crews</h1>
+ 
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://fotostudioloske.de/images/Bewerbungsfotos/Bewerbungsfotos_3/Bewerbungsfotos_Fotograf_Munchen_7.jpg" alt="John" style="height="200" width="200"></td>
+      <h3>muhammad luqman hakim bin rahmat</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p> Our CEO is responsible for ensuring that the Dely ice cream operates at a profit and meets its goals. Our CEO know how best to approach new opportunities, including tasks.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://fotostudioloske.de/images/Bewerbungsfotos/Bewerbungsfotos_RiemArcaden_Munchen.jpg" alt="Jane"  style="height="200" width="200"></td>
+      <h3>JUWANDA erfan binti mansor</h3>
+      <p class="w3-opacity">manager</p>
+      <p>Manager helps the product strategy and roadmap as well execute various accounting duties.Helping coordinate board meeting and sending notifications to Board staffs.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://i.pinimg.com/736x/02/96/aa/0296aaf3df0117e895d553f33c6ef77a.jpg" alt="Mike"  style="height="200" width="200"></td>
+      <h3>Jordania Ilhan binti mansor</h3>
+      <p class="w3-opacity">manager assistant</p>
+      <p>Assistant manager - responsible for scheduling employees, training new employees and hiring new employees. Based on direction from the company.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+	</div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://simg.nicepng.com/png/small/7-77391_businessman-transparent-business-man-png.png" alt="Dan"  style="height="200" width="200"></td>
+      <h3>Muhammad Faiz Danial Bin Nazim</h3>
+      <p class="w3-opacity">Promoter</p>
+      <p>Promoters demonstrate and provide information on products or services. Also showing potential customers how a product or service works. They also answer questions and aim to convince customers to buy a product or service.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+   <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://static8.depositphotos.com/1053932/1003/i/600/depositphotos_10033802-stock-photo-asian-indian-business-woman-reading.jpg" alt="Mike"  style="height="200" width="200"></td>
+      <h3>Nisa Irdina Binti Mohd Radzi</h3>
+      <p class="w3-opacity">Promoter</p>
+      <p>Promoters demonstrate and provide information on products or services .Also potential customers how a product or service works. They also answer questions and aim to convince customers to buy a product or service.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://thumbs.dreamstime.com/b/casual-office-worker-smiling-office-18382017.jpg" alt="Dan"  style="height="200" width="200"></td>
+      <h3>Ahmad Fakhry Harraz Bin Ahmad Sabri</h3>
+      <p class="w3-opacity">supervisor</p>
+      <p>organize employees' workflow, monitor the productivity of employees, give constructive feedback, reporting to HR, evaluating performance and providing feedback and helping to resolve employee issues and disputes.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+
+    
